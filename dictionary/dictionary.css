@@ -1,0 +1,89 @@
+/* body{
+  margin: 0px;
+}
+header{
+  background-color: blue;
+  height: 100px;
+  display:flex;
+  justify-content: center;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.menu_button{
+  margin: 5px;
+  padding: 7px;
+  height: 65px;
+  background-color:rgb(154, 155, 155);
+  border-radius: 5px;
+} */
+#dict-score{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 1em;
+  background-color: hsl(0, 0%, 50%);
+  width: 80%;
+  padding-left: 1em;
+  border-radius: 1em;
+  color: green;
+}
+.game {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.word{
+  color:white;
+  background-color: green;
+  margin: 10px;
+  width: 100px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+}
+.wonWord{
+  color:white;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  width: 100px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+}
+.oneSideWord{
+  color:white;
+  background-color: green;
+  margin: 10px;
+  width: 100px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+}
+.twoSideWord{
+  color:white;
+  background-color: rgb(155, 3, 3);
+  margin: 10px;
+  width: 100px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+}
+.dict {
+  background-color: rgb(1, 125, 1);
+  display: flex;
+  flex-wrap: wrap;
+}
+.translatedWord{
+  color:white;
+  background-color: rgb(100, 70, 1);
+  margin: 10px;
+  width: 100px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+}
